@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I learned that express is a server side javascript framework that makes building alot easier on the back end and I learned that express makes it possible to use middleware to give even more functionality to the back end
+
 - [ ] Describe Middleware?
+
+Middleware is used to make it easier for the front and back end to communicate with eachother. Middleware will take a piece of data from the req/res object and alter it in some way before continuing it along to the next process
 
 - [ ] Describe a Resource?
 
+A resource is simply any piece of data in our API
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+APIs return status codes in order to inform the client on the result of the API call. For example, a status code of 200 means that the call was successful and a status code of 500 means that there was an error with the server
+
 - [ ] How can we partition our application into sub-applications?
+
+For this we can use express routes/routing so we can separate our API into different routes and make our code more organized
 
 ## Minimum Viable Product
 
